@@ -1,0 +1,10 @@
+# Tested combination: PySpark 3.5.5 + Java 17 (see README for version advice).
+# No extra ML dependency is needed: K-Means uses pyspark.ml (included in
+# PySpark). On Python 3.12+ the notebook supplies a local `distutils` stub so
+# pyspark.ml imports; on Python 3.10/3.11 nothing extra is required.
+pyspark==3.5.5
+pandas>=2.0
+matplotlib>=3.8
+openpyxl==3.1.5
+notebook>=7.6
+ipykernel>=6.0

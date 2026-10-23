@@ -1,0 +1,17 @@
+# Python virtual environment (created by setup_windows.bat)
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Regenerable cache: rebuilt from Online Retail.xlsx when the notebook runs.
+# The original *.xlsx dataset itself is never ignored - keep it.
+online_retail_cache.csv
+
+# Python caches and temp files
+__pycache__/
+*.pyc
+*.log
+
+# Local safety backup of the notebook (stale duplicate; the live file above is authoritative)
+*.backup.ipynb
